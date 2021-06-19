@@ -1,0 +1,5 @@
+*.bat
+*.rar
+ext
+node_modules
+under dev

@@ -1,5 +1,6 @@
 *.bat
 *.rar
 ext
+rtts
 node_modules
 under dev

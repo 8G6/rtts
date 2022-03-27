@@ -1,4 +1,3 @@
-
 const {AfterTold,ranger} = require('./functions.js');
 const util = require('util');
 const exe = util.promisify(require('child_process').execFile);
@@ -11,7 +10,7 @@ class  Windows{
         this.nodata=false
         this.text='only works after calling talk'
         this.voice='Microsoft David Desktop'
-        this.rate=2.5
+        this.rate=100
         this.vol=100
     }    
         talk = async function (text='no input'){
@@ -30,7 +29,6 @@ class  Windows{
                     print(err)
                 }
                 AfterTold(err,stderr,stdout,this.nodata,this.start)
-                Kill()
             }).catch(()=>{console.log('Node error')});
             
         }

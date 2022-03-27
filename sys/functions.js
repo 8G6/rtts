@@ -1,7 +1,6 @@
 
 class functions{   
     
-    
     AfterTold(err,stderr,stdout,nodata,start) {
         let s=stderr.split('"')
         let pserr=s

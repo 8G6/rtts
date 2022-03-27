@@ -10,15 +10,15 @@ class  Windows{
         this.nodata=false
         this.text='only works after calling talk'
         this.voice='Microsoft David Desktop'
-        this.rate=100
+        this.rate=50
         this.vol=100
     }    
         talk = async function (text='no input'){
             text=='no input' ? this.nodata = true : 0
-            this.rate=ranger(this.rate) 
+            let speed = ranger(this.rate) 
             this.vol==undefined ? this.vol=100 : 0
-            let cmd=this.ps+`$ss.Rate=${this.rate};$ss.SelectVoice('${this.voice}');$ss.Volume=${this.vol};$ss.Speak('${text}');'${text}';`
-            let k=true
+            let cmd=this.ps+`$ss.Rate=${speed};$ss.SelectVoice('${this.voice}');$ss.Volume=${this.vol};$ss.Speak('${text}');'${text}';`
+            let k=null
             setTimeout(() => { print('Started Speaking'); this.start = new Date().getTime(); },1000)
             this.ontalk = (callback,intervel=100) => setTimeout(()=>{k=setInterval(()=>{callback()},intervel)},1000)
             await exe('powershell.exe',[cmd],(err,stdout,stderr)=>{

@@ -56,8 +56,9 @@ Options can be passed as strings separated by comas
 
 
 ## Features 
+
 Platform | Speak | Export | Stop | Speed | Voice | Voloume | List 
----------|-------|--------|------|-------|-------|-----
+---------|-------|--------|------|-------|-------|----- |-----
 Windows | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :no_entry_sign:
 Linux   | :no_entry_sign: | :no_entry_sign:    | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: | :no_entry_sign:
 macOS  | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: | :no_entry_sign:

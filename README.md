@@ -7,7 +7,7 @@ example usage
 ```javascript
 const rtts = require('rtts')
 (async()=>{
-    rtts.rate=2.5
+    rtts.rate=2.1
     rtts.vol=100
     await rtts.talk('hi');
 })()

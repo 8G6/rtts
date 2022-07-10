@@ -20,7 +20,7 @@ A value between 0-100
 rtts.vol
 ```
 ## Speed
-A value between 0-5
+A value between 0-100
 ```javascript
 rtts.rate
 ```

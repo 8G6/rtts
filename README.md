@@ -5,7 +5,7 @@ rtts is an open source JavaScript package for text to speech conversion
 
 example usage
 ```javascript
-const rtts = require('rtts')
+const rtts = require('rtts');
 (async()=>{
     rtts.rate=2.1
     rtts.vol=100

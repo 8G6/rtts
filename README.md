@@ -1,5 +1,10 @@
 # rtts (Ryu Text to Speech)
 
+## How to install 
+
+```bash
+npm i rtts
+```
 
 rtts is an open source JavaScript package for text to speech conversion
 
